@@ -1,0 +1,22 @@
+/* Import Monserrat font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+/* Use the monserrat font */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e6f2ff;
+  /* Use a black blue color as font color */
+  color: #000066;
+}
+
+/* Center main */
+body > main, body > header, body > footer {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Horizontal align navigation */
+nav ul{
+  display: flex;
+  gap: 1em;
+  padding:0;
+}
